@@ -4,7 +4,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   backdrop-filter: blur(15px);
-
   }
 
 .wd-bg-blue {background-color: #FFFFE0 !important; border: 0 !important; }
