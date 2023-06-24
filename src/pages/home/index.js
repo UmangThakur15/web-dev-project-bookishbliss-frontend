@@ -58,7 +58,6 @@ const Home = () => {
             </div>
           </div>
         </div>
-
         <div className="mt-4">
           <ListComponent title={isLike ? "LIKED BOOKS" : "NEW BOOKS"} lists={books}/>
           <ListComponent title="LATEST BOOKLISTS" isList={true} lists={lists}/>
