@@ -1,15 +1,17 @@
-body {background-image: url('https://c1.wallpaperflare.com/preview/127/366/443/library-book-bookshelf-read.jpg');
+body {
+  /* background-image: url('https://c1.wallpaperflare.com/preview/127/366/443/library-book-bookshelf-read.jpg'); */
+  background-image: url('https://img.freepik.com/free-vector/education-background-with-books-ceiling-lamp_53876-115359.jpg?w=2000&t=st=1687647981~exp=1687648581~hmac=609bbde144a947144e46a2d7f14f810cc43d09cd0150f62556ac5ca88f62d763');
   background-repeat: no-repeat;
   background-size: cover;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(15px);
 
   }
 
-.wd-bg-blue {background-color: Ivory !important; border: 0 !important; }
-.wd-bg-sameblue {background-color: Ivory !important; border: 0 !important;}
+.wd-bg-blue {background-color: palegoldenrod !important; border: 0 !important; }
+.wd-bg-sameblue {background-color: palegoldenrod !important; border: 0 !important;}
 .wd-search-btn-pos {bottom: 23px; left: 650px;}
-.wd-link {text-decoration: none; color: Ivory; }
-.wd-link:hover {color: #164f80;}
+.wd-link {text-decoration: none; color: palegoldenrod; }
+.wd-link:hover {color: palegoldenrod;}
 .wd-nudge-up {bottom: 8px; left: 25px; }
 
 .App {
@@ -28,18 +30,18 @@ body {background-image: url('https://c1.wallpaperflare.com/preview/127/366/443/l
 }
 
 .App-header {
-  background-color: Ivory;
+  background-color: palegoldenrod;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: palegoldenrod;
 }
 
 .App-link {
-  color: Ivory;
+  color: palegoldenrod;
 }
 
 @keyframes App-logo-spin {

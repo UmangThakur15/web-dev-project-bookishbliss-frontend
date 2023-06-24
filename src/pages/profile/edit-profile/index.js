@@ -100,6 +100,7 @@ const EditProfile = () => {
               </button>
               <button className="btn btn-secondary rounded-pill"
                       onClick={handleBack}
+                      style={{color:"white"}}
               >
                 Back
               </button>

@@ -10,7 +10,7 @@ import {
   getFollowerCount
 } from "../../../services/follow/follow-service";
 import PopupModal from "../../common/popup-modal";
-import {Button} from "react-bootstrap";
+import {Button, Col} from "react-bootstrap";
 import {
   createBookList, deleteList,
   getUserBookLists
@@ -209,14 +209,14 @@ const Profile = () => {
             <span className="fw-bolder text-secondary">{followee}</span>
             <span className="text-danger"> Following</span>
           </Link>
-          <Link to="/follower" className="text-decoration-none">
-            <span className="fw-bolder ps-4 text-secondary">{follower}</span>
-            <span className="text-primary"> Follower</span>
+          <Link to="/follower" className="text-decoration-none" style={{color:"white"}}>
+            <span className="fw-bolder ps-4 text-secondary" style={{color:"white"}}>{follower}</span>
+            <span className="text-primary" style={{color:"white"}}> Follower</span>
           </Link>
         </div>
         <div className="text-center mt-3">
           <Link to="/edit-profile">
-            <button className="btn btn-primary rounded-pill">Edit Profile
+            <button className="btn btn-primary rounded-pill" style={{backgroundColor:"Ivory", color:"black", border:"black"}}>Edit Profile
             </button>
           </Link>
         </div>
