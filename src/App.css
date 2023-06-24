@@ -1,6 +1,8 @@
 body {background-image: url('https://c1.wallpaperflare.com/preview/127/366/443/library-book-bookshelf-read.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  filter: blur(0px);
+  filter: opacity(100px)
 
   }
 

@@ -35,14 +35,14 @@ const Login = () => {
               </div>
               <div className="col-6 d-flex align-items-center justify-content-center">
                   <div>
-                      <h1 className="text-center">Welcome Back</h1>
-                      <label htmlFor="UsernameInput" className="col-form-label">Username</label>
+                      <h1 className="text-center" style={{color:"white"}}>Welcome Back</h1>
+                      <label htmlFor="UsernameInput" className="col-form-label" style={{color:"white"}}>Username</label>
                       <input className="form-control" id="UsernameInput"
                              value={username}
                              onChange={e => setUsername(e.target.value)}
                       />
 
-                      <label htmlFor="PasswdInput" className="col-form-label">Password</label>
+                      <label htmlFor="PasswdInput" className="col-form-label" style={{color:"white"}}>Password</label>
                       <input type="password" className="form-control" id="PasswdInput"
                              value={password}
                              onChange={e => setPassword(e.target.value)}
@@ -53,7 +53,7 @@ const Login = () => {
                       </Alert>
 
                       <button className="btn btn-warning rounded w-100 mt-4" onClick={login}>Log In</button>
-                      <p className="text-center mt-3">Don't have an account?
+                      <p className="text-center mt-3" style={{color:"white"}}>Don't have an account?
                           <span>
                               <Link to="/signup" className="btn btn-link align-baseline">Sign up</Link>
                           </span>
