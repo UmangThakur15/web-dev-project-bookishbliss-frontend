@@ -28,10 +28,10 @@ const Login = () => {
         <div className="container">
           <div className="row">
               <div className="col-5">
-                  <div className="position-absolute top-0 end-20">
+                  <div className="position-absolute top-0 end-20" >
                       <HomeButton/>
                   </div>
-                  <img className="col-12" src="https://i.pinimg.com/564x/b7/9c/e8/b79ce822d2e5c4bcc7e799c9aaac0fee.jpg" alt="illustration"/>
+                  <img className="col-12" src="https://i.pinimg.com/564x/b7/9c/e8/b79ce822d2e5c4bcc7e799c9aaac0fee.jpg" alt="illustration" style={{paddingTop:"28px"}}/>
               </div>
               <div className="col-6 d-flex align-items-center justify-content-center">
                   <div>

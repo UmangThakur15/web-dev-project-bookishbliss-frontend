@@ -47,7 +47,7 @@ const SignUp = () => {
               <HomeButton/>
             </div>
             <img className="col-12" src="https://i.pinimg.com/564x/b7/9c/e8/b79ce822d2e5c4bcc7e799c9aaac0fee.jpg"
-                 alt="illustration"/>
+                 alt="illustration" style={{paddingTop:"28px"}}/>
           </div>
           <div
               className="col-6 offset-1 d-flex align-items-center justify-content-center mt-3">
