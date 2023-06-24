@@ -37,7 +37,7 @@ const Search = () => {
   }
 
   return (
-      <div className="container" style={{backgroundColor:"Ivory"}}>
+      <div className="container" style={{backgroundColor:"#FFFFE0"}}>
         <div className="row">
           <div className="col-3">
             <HomeButton/>

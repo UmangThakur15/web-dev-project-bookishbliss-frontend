@@ -7,11 +7,11 @@ body {
 
   }
 
-.wd-bg-blue {background-color: palegoldenrod !important; border: 0 !important; }
-.wd-bg-sameblue {background-color: palegoldenrod !important; border: 0 !important;}
+.wd-bg-blue {background-color: #FFFFE0 !important; border: 0 !important; }
+.wd-bg-sameblue {background-color: #FFFFE0 !important; border: 0 !important;}
 .wd-search-btn-pos {bottom: 23px; left: 650px;}
-.wd-link {text-decoration: none; color: palegoldenrod; }
-.wd-link:hover {color: palegoldenrod;}
+.wd-link {text-decoration: none; color: #FFFFE0; }
+.wd-link:hover {color: #FFFFE0;}
 .wd-nudge-up {bottom: 8px; left: 25px; }
 
 .App {
@@ -30,18 +30,18 @@ body {
 }
 
 .App-header {
-  background-color: palegoldenrod;
+  background-color: #FFFFE0;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: palegoldenrod;
+  color: #FFFFE0;
 }
 
 .App-link {
-  color: palegoldenrod;
+  color: #FFFFE0;
 }
 
 @keyframes App-logo-spin {
