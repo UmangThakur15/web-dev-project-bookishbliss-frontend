@@ -22,8 +22,14 @@ body
       bottom: 23px; 
       left: 650px;
   }
+
+.wd-link 
+  {
+      text-decoration: none; 
+      color: steelblue;
+  }
+
   
-.wd-link {text-decoration: none; color: steelblue;}
 .wd-link:hover {color: #164f80;}
 .wd-nudge-up {bottom: 8px; left: 25px;}
 
