@@ -37,7 +37,7 @@ const Search = () => {
   }
 
   return (
-      <div className="container">
+      <div className="container" style={{backgroundColor:"Ivory"}}>
         <div className="row">
           <div className="col-3">
             <HomeButton/>
@@ -80,20 +80,20 @@ const Search = () => {
 
               <div align="middle" className="my-3">
                 <button className="btn rounded-pill" onClick={handlePrePages}
-                        hidden={searchPage === '1'}>
+                        hidden={searchPage === '1'} >
                   ← Previous
                 </button>
                 <span
-                    className="align-middle fw-bold"> Page {searchResult.page}
+                    className="align-middle fw-bold" > Page {searchResult.page}
                 </span>
                 <button className="btn rounded-pill"
-                        onClick={handleNextPages}>
+                        onClick={handleNextPages} >
                   Next →
                 </button>
               </div>
             </div> :
             <div
-                className="d-flex justify-content-center align-items-center mt-5 fw-bolder" style={{color:"white"}}>
+                className="d-flex justify-content-center align-items-center mt-5 fw-bolder">
               No result
             </div>}
 
