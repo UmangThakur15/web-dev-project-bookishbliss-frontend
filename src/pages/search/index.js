@@ -93,7 +93,7 @@ const Search = () => {
               </div>
             </div> :
             <div
-                className="d-flex justify-content-center align-items-center mt-5 fw-bolder">
+                className="d-flex justify-content-center align-items-center mt-5 fw-bolder" style={{color:"white"}}>
               No result
             </div>}
 

@@ -1,30 +1,32 @@
 body {background-image: url('https://c1.wallpaperflare.com/preview/127/366/443/library-book-bookshelf-read.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  filter: blur(0px);
-  filter: opacity(100px)
+  backdrop-filter: blur(5px);
 
   }
 
-.wd-bg-blue {background-color: Ivory !important; border: 0 !important;}
+.wd-bg-blue {background-color: Ivory !important; border: 0 !important; }
 .wd-bg-sameblue {background-color: Ivory !important; border: 0 !important;}
 .wd-search-btn-pos {bottom: 23px; left: 650px;}
-.wd-link {text-decoration: none; color: Ivory;}
+.wd-link {text-decoration: none; color: Ivory; }
 .wd-link:hover {color: #164f80;}
-.wd-nudge-up {bottom: 8px; left: 25px;}
+.wd-nudge-up {bottom: 8px; left: 25px; }
 
 .App {
   text-align: center;
+  backdrop-filter: blur(5px);
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  backdrop-filter: blur(5px);
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+    backdrop-filter: blur(5px);
   }
 }
 
@@ -49,5 +51,6 @@ body {background-image: url('https://c1.wallpaperflare.com/preview/127/366/443/l
   }
   to {
     transform: rotate(360deg);
+    
   }
 }
