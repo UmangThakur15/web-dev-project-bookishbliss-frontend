@@ -7,11 +7,9 @@ import MyApp from "./pages";
 function App() {
   return (
       <BrowserRouter>
-        {/*<div className="container">*/}
           <Routes>
             <Route index path="/*" element={<MyApp/>}/>
           </Routes>
-        {/*</div>*/}
       </BrowserRouter>
   );
 }
