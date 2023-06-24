@@ -46,8 +46,8 @@ const Home = () => {
           <div className="d-flex align-items-center">
             {/* <img height={50} src="/images/logo2.png" className="me-4"
                  alt="logo"/> */}
-            <i><h1 className="fw-bold m-3 mt-4" style={{color:"white"}}>Bookish Bliss</h1></i>
-            <FaBook size={32} color="white" />
+            <i><h1 className="fw-bold m-3 mt-4" style={{color:"black"}}>Bookish Bliss</h1></i>
+            <FaBook size={32} color="black" />
           </div>
           <div className="d-flex">
             <div className="me-3">
