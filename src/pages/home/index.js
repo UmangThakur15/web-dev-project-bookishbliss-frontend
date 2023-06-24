@@ -40,13 +40,13 @@ const Home = () => {
     getData().catch(err => console.log(err));
   }, [currentUser])
   return (
-      <div className="container" style={{backgroundColour:"SlateBlue"}}>
+      <div className="container" >
         <div className="d-flex align-items-center justify-content-between">
           <div className="d-flex align-items-center">
             {/* <img height={50} src="/images/logo2.png" className="me-4"
                  alt="logo"/> */}
-            <h1 className="fw-bold m-3 mt-4" style={{color:"white"}}>Bookish Bliss</h1>
-            <i><FaBook size={32} color="white" /></i>
+            <i><h1 className="fw-bold m-3 mt-4" style={{color:"white"}}>Bookish Bliss</h1></i>
+            <FaBook size={32} color="white" />
           </div>
           <div className="d-flex">
             <div className="me-3">
