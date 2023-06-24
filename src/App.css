@@ -34,8 +34,12 @@ body
       color: #164f80;
   }
 
-  
-.wd-nudge-up {bottom: 8px; left: 25px;}
+
+.wd-nudge-up 
+  {
+      bottom: 8px; 
+      left: 25px;
+  }
 
 .App {
   text-align: center;
