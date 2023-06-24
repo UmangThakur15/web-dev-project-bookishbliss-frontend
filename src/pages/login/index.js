@@ -10,9 +10,7 @@ const Login = () => {
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
     const dispatch = useDispatch();
-
     const [error, setError] = useState("");
-
     const login = () => {
         dispatch(loginThunk({username, password}));
         if (!currentUser) {
