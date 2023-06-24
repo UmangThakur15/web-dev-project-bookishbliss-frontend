@@ -14,19 +14,16 @@ body {background-image: url('https://c1.wallpaperflare.com/preview/127/366/443/l
 
 .App {
   text-align: center;
-  backdrop-filter: blur(5px);
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-  backdrop-filter: blur(5px);
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
-    backdrop-filter: blur(5px);
   }
 }
 

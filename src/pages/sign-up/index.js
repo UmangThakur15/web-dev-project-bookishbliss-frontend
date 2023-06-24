@@ -52,22 +52,22 @@ const SignUp = () => {
           <div
               className="col-6 offset-1 d-flex align-items-center justify-content-center mt-3">
             <div>
-              <h2 className="text-center">Welcome to Sign Up an Account</h2>
+              <i><h2 className="text-center"style={{color:"white"}}>Welcome to Sign Up an Account</h2></i>
               <label htmlFor="UsernameInput"
-                     className="col-form-label">Username</label>
+                     className="col-form-label" style={{color:"white"}}>Username</label>
               <input className="form-control" id="UsernameInput"
                      value={username}
                      onChange={e => setUsername(e.target.value)}
               />
 
               <label htmlFor="PasswdInput"
-                     className="col-form-label">Password</label>
+                     className="col-form-label" style={{color:"white"}}>Password</label>
               <input type="password" className="form-control" id="PasswdInput"
                      value={password}
                      onChange={e => setPassword(e.target.value)}
               />
 
-              <label htmlFor="ConPasswdInput" className="col-form-label">Confirm
+              <label htmlFor="ConPasswdInput" className="col-form-label" style={{color:"white"}}>Confirm
                 Password</label>
               <input type="password" className="form-control"
                      id="ConPasswdInput"
@@ -76,21 +76,21 @@ const SignUp = () => {
               />
 
               <label htmlFor="FullNameInput"
-                     className="col-form-label">FullName</label>
+                     className="col-form-label" style={{color:"white"}}>FullName</label>
               <input className="form-control" id="FullNameInput"
                      value={fullname}
                      onChange={e => setFullname(e.target.value)}
               />
 
               <label htmlFor="EmailInput"
-                     className="col-form-label">Email</label>
+                     className="col-form-label" style={{color:"white"}}>Email</label>
               <input type="email" className="form-control" id="EmailInput"
                      value={email}
                      onChange={e => setEmail(e.target.value)}
               />
 
               <div className="form-check mt-3">
-                <label className="form-check-label" htmlFor="SignUpCheckBox">
+                <label className="form-check-label" htmlFor="SignUpCheckBox" style={{color:"white"}}>
                   Creator
                 </label>
                 <input className="form-check-input" type="checkbox"

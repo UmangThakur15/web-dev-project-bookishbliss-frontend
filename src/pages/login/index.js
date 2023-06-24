@@ -35,7 +35,7 @@ const Login = () => {
               </div>
               <div className="col-6 d-flex align-items-center justify-content-center">
                   <div>
-                      <h1 className="text-center" style={{color:"white"}}>Welcome Back</h1>
+                      <i><h1 className="text-center" style={{color:"white"}}>Welcome Back</h1></i>
                       <label htmlFor="UsernameInput" className="col-form-label" style={{color:"white"}}>Username</label>
                       <input className="form-control" id="UsernameInput"
                              value={username}
