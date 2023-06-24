@@ -16,8 +16,13 @@ body
       background-color: lightsteelblue !important; 
       border: 0 !important;
   }
+
+.wd-search-btn-pos 
+  { 
+      bottom: 23px; 
+      left: 650px;
+  }
   
-.wd-search-btn-pos {bottom: 23px; left: 650px;}
 .wd-link {text-decoration: none; color: steelblue;}
 .wd-link:hover {color: #164f80;}
 .wd-nudge-up {bottom: 8px; left: 25px;}
