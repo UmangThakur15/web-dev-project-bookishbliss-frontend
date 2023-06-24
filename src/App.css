@@ -1,4 +1,9 @@
-body {background-color: lightsteelblue !important;} /*powderblue*/
+body {background-image: url('https://c1.wallpaperflare.com/preview/127/366/443/library-book-bookshelf-read.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  }
+
 .wd-bg-blue {background-color: #e2eaf1 !important; border: 0 !important;}
 .wd-bg-sameblue {background-color: lightsteelblue !important; border: 0 !important;}
 .wd-search-btn-pos {bottom: 23px; left: 650px;}

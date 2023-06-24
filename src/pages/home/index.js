@@ -6,6 +6,7 @@ import {useEffect, useState} from "react";
 import {getNewBooks} from "../../services/book/book-service";
 import {getUserLikedBook} from "../../services/like-book/like-book-service";
 import {getLatestBookList} from "../../services/booklist/booklist-service";
+import { FaBook } from 'react-icons/fa';
 
 const Home = () => {
   const {currentUser} = useSelector(state => state.user);
@@ -39,12 +40,13 @@ const Home = () => {
     getData().catch(err => console.log(err));
   }, [currentUser])
   return (
-      <div className="container">
+      <div className="container" style={{backgroundColour:"SlateBlue"}}>
         <div className="d-flex align-items-center justify-content-between">
           <div className="d-flex align-items-center">
-            <img height={50} src="/images/logo2.png" className="me-4"
-                 alt="logo"/>
-            <h1 className="fw-bold m-3 mt-4">WELCOME TO BOOKLY</h1>
+            {/* <img height={50} src="/images/logo2.png" className="me-4"
+                 alt="logo"/> */}
+            <h1 className="fw-bold m-3 mt-4" style={{color:"white"}}>Bookish Bliss</h1>
+            <i><FaBook size={32} color="white" /></i>
           </div>
           <div className="d-flex">
             <div className="me-3">
