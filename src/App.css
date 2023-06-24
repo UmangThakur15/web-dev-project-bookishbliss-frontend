@@ -29,8 +29,12 @@ body
       color: steelblue;
   }
 
+.wd-link:hover 
+  {
+      color: #164f80;
+  }
+
   
-.wd-link:hover {color: #164f80;}
 .wd-nudge-up {bottom: 8px; left: 25px;}
 
 .App {
