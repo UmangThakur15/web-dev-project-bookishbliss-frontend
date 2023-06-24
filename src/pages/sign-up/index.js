@@ -11,11 +11,8 @@ const SignUp = () => {
   const [fullname, setFullname] = useState("");
   const [email, setEmail] = useState("");
   const [isCreator, setIsCreator] = useState(false);
-
   const [error, setError] = useState("");
-
   const navigate = useNavigate();
-
   const handleSignUp = async () => {
     if (password !== conPassword) {
       setError("Please check your password!");
