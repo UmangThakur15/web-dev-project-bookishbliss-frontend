@@ -46,7 +46,7 @@ const SignUp = () => {
             <div className="position-absolute top-0 end-20">
               <HomeButton/>
             </div>
-            <img className="col-12" src="https://e1.pxfuel.com/desktop-wallpaper/https://e1.pxfuel.com/desktop-wallpaper/525/684/desktop-wallpaper-361-about-books-brown-book-aesthetic.jpg"
+            <img className="col-12" src="https://i.pinimg.com/564x/b7/9c/e8/b79ce822d2e5c4bcc7e799c9aaac0fee.jpg"
                  alt="illustration"/>
           </div>
           <div
