@@ -15,6 +15,7 @@ export const getFolloweeCount = async (uid) => {
 export const follow = async (info) => {
   const response = await api.post(`${FOLLOW_API_URL}/follow`, info);
   return response.data;
+  
 }
 
 export const findFollow = async (uid, curid) => {
