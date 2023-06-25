@@ -1,3 +1,17 @@
+body {
+  background-image: url('https://img.freepik.com/free-vector/education-background-with-books-ceiling-lamp_53876-115359.jpg?w=2000&t=st=1687647981~exp=1687648581~hmac=609bbde144a947144e46a2d7f14f810cc43d09cd0150f62556ac5ca88f62d763');
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(15px);
+  }
+
+.wd-bg-blue {background-color: #FFFFE0 !important; border: 0 !important; }
+.wd-bg-sameblue {background-color: #FFFFE0 !important; border: 0 !important;}
+.wd-search-btn-pos {bottom: 23px; left: 650px;}
+.wd-link {text-decoration: none; color: #FFFFE0; }
+.wd-link:hover {color: #FFFFE0;}
+.wd-nudge-up {bottom: 8px; left: 25px; }
+
 .App {
   text-align: center;
 }
@@ -14,18 +28,18 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #FFFFE0;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #FFFFE0;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #FFFFE0;
 }
 
 @keyframes App-logo-spin {
@@ -34,5 +48,6 @@
   }
   to {
     transform: rotate(360deg);
+    
   }
 }
