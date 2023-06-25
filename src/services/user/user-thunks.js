@@ -3,7 +3,7 @@ import {login, logout, updateUser} from "./user-service";
 
 export const loginThunk = createAsyncThunk(
     'login',
-    async (user) => await login(user)
+    async (user) => await login(user) 
 )
 
 export const logoutThunk = createAsyncThunk(
