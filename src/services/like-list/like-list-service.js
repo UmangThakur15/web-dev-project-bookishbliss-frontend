@@ -7,7 +7,7 @@ export const likelist = async (info) => {
   return response.data;
 }
 
-export const unlikelist = async (llid) => {
+export const unlikelist = async (llid) => { 
   const response = await api.delete(`${LIKELIST_API_URL}/unlike/${llid}`);
   return response.data;
 }
