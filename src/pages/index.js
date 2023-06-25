@@ -18,6 +18,7 @@ const store = configureStore({
   reducer: {
     user: userReducer
   }
+  
 })
 
 function MyApp() {
