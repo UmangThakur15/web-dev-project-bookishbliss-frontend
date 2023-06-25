@@ -20,7 +20,7 @@ export const logout = async () => {
 export const updateUser = async (uid, updateInfo) => {
   const response = await api.put(`${USER_API_URL}/updateProfile/${uid}`,
       updateInfo);
-  return response.data;
+  return response.data; 
 }
 
 export const getProfile = async (uid) => {
